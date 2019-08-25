@@ -1,0 +1,656 @@
+@font-face {
+    font-family: 'Stellar';
+    src: url('../font/Stellar-Regular.woff2') format('woff2'),
+        url('../font/Stellar-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stellar';
+    src: url('../font/Stellar-Bold.woff2') format('woff2'),
+        url('../font/Stellar-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('../font/MADEEvolveSansEVO.woff2') format('woff2'),
+        url('../font/MADEEvolveSansEVO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('../font/MADEEvolveSans.woff2') format('woff2'),
+        url('../font/MADEEvolveSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Blanka';
+    src: url('../font/Blanka-Regular.woff2') format('woff2'),
+        url('../font/Blanka-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('../font/MADEEvolveSansEVO-Bold.woff2') format('woff2'),
+        url('../font/MADEEvolveSansEVO-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('../font/MADEEvolveSans-Medium.woff2') format('woff2'),
+        url('../font/MADEEvolveSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('../font/MADEEvolveSans-Thin.woff2') format('woff2'),
+        url('../font/MADEEvolveSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('../font/MADEEvolveSansEVO-Thin.woff2') format('woff2'),
+        url('../font/MADEEvolveSansEVO-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('../font/MADEEvolveSansEVO-Medium.woff2') format('woff2'),
+        url('../font/MADEEvolveSansEVO-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('../font/MADEEvolveSans-Bold.woff2') format('woff2'),
+        url('../font/MADEEvolveSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('../font/MADEEvolveSans-Light.woff2') format('woff2'),
+        url('../font/MADEEvolveSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('../font/MADEEvolveSansEVO-Light.woff2') format('woff2'),
+        url('../font/MADEEvolveSansEVO-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stellar';
+    src: url('../font/Stellar-Light.woff2') format('woff2'),
+        url('../font/Stellar-Light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stellar';
+    src: url('../font/Stellar-Medium.woff2') format('woff2'),
+        url('../font/Stellar-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ailerons';
+    src: url('../font/Ailerons-Regular.woff2') format('woff2'),
+        url('../font/Ailerons-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Stellar';
+    /* background-color: rgb(8, 3, 63); */
+    background-color: #06003e;
+}
+
+/* navbar */
+
+.navbar-fixed{
+    position: absolute;
+    z-index: 99999999;
+}
+
+.logo_nav{
+    max-height: 50px;
+    padding-top: 10px;
+}
+
+.bg_navbar{
+    background-color: rgba(8, 3, 63, 0.7) !important;
+    transition: 1500ms;
+}
+
+#navbar{
+    transition: 1500ms;
+    background-color: transparent;
+}
+
+#navbar ul a:hover{
+    color:yellow;
+    font-weight: bold;
+}
+
+nav ul li.active > a{
+    color:yellow !important;
+    font-weight: bold;
+}
+
+/* end of navbar */
+
+
+/* --------------------- */
+#header-parallax.parallax-container{
+    min-height: 650px;
+}
+
+.parallax-container{
+    height: 300px;
+}
+
+/* ------------------- */
+
+/* SCROLL DOWN */
+
+.contain-box{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin-top:5%;
+}
+
+.container-scrolldown {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .chevron {
+    position: absolute;
+    width: 70px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+  }
+  
+  .chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+  }
+  
+  .chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+  }
+  
+  .chevron:before,
+  .chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #fff;
+  }
+  
+  .chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+  }
+  
+  .chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+  }
+  
+  @keyframes move {
+    25% {
+      opacity: 1;
+  
+    }
+    33% {
+      opacity: 1;
+      transform: translateY(30px);
+    }
+    67% {
+      opacity: 1;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+  }
+  
+  /* .text {
+    display: block;
+    margin-top: 75px;
+    margin-left: -30px;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: .25;
+    animation: pulse 2s linear alternate infinite;
+  } */
+  
+  @keyframes pulse {
+    to {
+      opacity: 1;
+    }
+  }
+
+/* END OF SCROLL DOWN */
+
+
+
+.row{
+    margin-bottom: 0px;
+}
+
+h1{
+    margin: 0;
+}
+
+.btnMain{
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Stellar';
+}
+
+.btnMain:hover{
+    background-color: transparent !important;
+    border: 3px solid #03a9f4;
+}
+
+.btnMain_border{
+    background: transparent !important;
+    border-radius: 20px;
+    border: 3px solid #ff00e2;
+    font-size: 15px;
+    font-family: 'Stellar';
+}
+
+.btnMain_border:hover{
+    background-color: #ff00e2 !important;
+}
+
+#header-section{
+    color: white;
+    min-height: 685px;
+    background: url('../img/header.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.header-content{
+    margin-top: 5%;
+    text-align: center;
+    /* color: #ffcc02; */
+    font-family: 'Blanka';
+    font-size: 50pt;
+    box-shadow: 2px;
+}
+
+.text_shadow{
+    /* -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75); */
+    text-shadow: 3px 4px 10px black;
+}
+
+.head-1{
+    font-family: 'Blanka';
+}
+
+.head-2{
+    font-family:'MADE Evolve Sans EVO';
+}
+
+.imglogo{
+    height: 200px;
+    width: 200px;
+}
+
+.logoFooter{
+    max-height: 60px;
+}
+
+.logo_sosmed{
+    width: 45px;
+    height: 45px;
+    filter: invert(100%);
+    margin-right: 5px;
+}
+
+a:hover > img.logo_sosmed{
+    filter: saturate(5);
+}
+
+.footer{
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    /* text-align: center; */
+    font-size: 14pt;
+}
+
+.sponsorXL > a > img{
+    width: 300px;
+}
+
+.sponsorM > a > img{
+    width: 150px;
+}
+
+#sponsor > .container > .video-container{
+    padding-bottom: 40%;
+    left: 20%;
+}
+
+#sponsor > .container > .video-container iframe{
+    width: 560px;
+    height: 315px;
+}
+
+.horizontal-scroll-wrapper {
+    display: flex;
+    overflow-x: auto;
+}
+
+.horizontal-scroll-content {
+    margin: 10px;
+    width: 100%;
+}
+
+.dropdown-content{
+    background-color: #06003e;
+}
+
+.dropdown-content li>a{
+    color: white;
+}
+
+.dropdown-content li>a:hover{
+    background-color: #04002b;
+}
+
+#about,
+#talkshow,
+#competition,
+#semnas,
+#gallery,
+#sponsormedpart,
+#expo,
+#sponsor{
+    /* padding-top: 5%; */
+    text-align: center;
+    /* background-size: cover !important; */
+    font-size:15pt;
+}
+
+
+#about{
+    /* padding-top: 5%; */
+    /* min-height: 685px; */
+    /* background: url('../img/about.jpg') no-repeat center; */
+    text-align: justify;
+}
+
+.logoAbout{
+    height: 400px;
+    width: 400px;
+}
+
+.logoBE{
+    height: 200px;
+    width: 200px;
+}
+
+.img_rangkaian{
+    max-width: 400px;
+}
+
+.about-txt{
+    font-size: 15pt;
+    text-align: justify;
+}
+
+#talkshow-section{
+    padding-top: 5%;
+    min-height: 685px;
+    background: url('../img/talkshow.jpg') no-repeat center;
+}
+
+.contentRangkaian{
+    text-align: center;
+    padding: 10px;
+    /* padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px; */
+}
+
+.detailContent{
+    margin-bottom: 50px;
+}
+
+.txtJudul{
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 4px 4px red;
+}
+
+.descWrapper{
+    padding: 10px !important;
+}
+
+.btnDetail1{
+    display: inline-block;
+}
+
+.btnDetail2{
+    display: none;
+}
+
+.descRangkaian{
+    text-align: justify;
+}
+
+.btnRSVP{
+    margin-top: 10px;
+    font-size: 22px;
+    color: black;
+    background-color: yellow;
+    width: 250px
+}
+
+#competition-section{
+    min-height: 685px;
+    background: url('../img/competition.jpg') no-repeat center;
+    padding-top: 6%;
+}
+
+#intention_card > .card-content,
+#da_card > .card-content,
+#ctf_card > .card-content{
+    /* display: none; */
+}
+
+#semnas-section{
+    padding-top: 9%;
+    min-height: 685px;
+    background: url('../img/semnas.jpg') no-repeat center;
+}
+
+#expo-section{
+    padding-top: 9%;
+    min-height: 685px;
+    background: url('../img/expo.jpg') no-repeat center;
+}
+
+#timeline-section{
+    padding-top: 10%;
+    min-height: 685px;
+    background: url('../img/timeline.jpg') no-repeat center;
+}
+
+#sponsormedpart-section{
+    min-height: 685px;
+    background: url('../img/sponsormedpart.jpg') no-repeat center;
+}
+
+#contact-section{
+    text-align: justify;
+    height: 50vh !important;
+    position: relative;
+    background-color: #06003e;
+}
+
+.addPadding_top{
+    padding-top: 10% !important;
+    transition: 0;
+}
+
+.sidenav{
+    margin-top: 55px;
+    background-color: rgba(8, 3, 63, 0.7);
+    width: 50%;
+}
+
+.sidenav
+li > a{
+    color: white;
+}
+
+.sidenav
+li > a:hover{
+    color: yellow;
+    background-color: rgb(8,3,63);
+}
+
+.carousel-item > img{
+    width: 500px !important;
+    margin-left: -70%;
+}
+
+.logoAboutWrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+@media screen and (max-width: 768px){
+    #header,
+    #about,
+    #talkshow,
+    #competition,
+    #semnas,
+    #expo-section,
+    #timeline-section,
+    #sponsormedpart-section,
+    #contact-section{
+        font-size: 16px;
+        /* background: transparent; */
+        /* background-size: cover; */
+    }
+
+    #header{
+        padding-top: 20%;
+    }
+
+    #contact-section{
+        height: 100vh !important;
+    }
+    body#b_ifest19{
+        background: url('../img/bg_mobile.jpg') no-repeat;
+        background-size: cover;
+        /* background: url('../img/bg_mobile.png'); */
+        background-color: #06003e;
+    }
+
+    .imglogo{
+        height: 100px;
+        width: 100px;
+    }
+
+    .img_rangkaian{
+        max-width: 400px;
+    }
+
+    #sponsor > .container > .video-container iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    #sponsor > .container > .video-container{
+        padding-bottom: 56.25%;
+        left: unset;
+    }
+
+    .horizontal-scroll-wrapper {
+        display: flex;
+        overflow-x: auto;
+    }
+    
+    .horizontal-scroll-content {
+        margin: 10px;
+        min-width: 300px;
+    }
+
+    .btnDetail1{
+        display: none;
+    }
+    
+    .btnDetail2{
+        display: inline-block;
+    }
+
+    .carousel-item > img{
+        width: 300px !important;
+        margin-left: -25%;
+    }
+    
+    .valign-wrapper{
+        display: unset;
+        text-align: center;
+    }
+
+    .logoAbout{
+        height: 300px;
+        width: 300px;
+    }
+}
