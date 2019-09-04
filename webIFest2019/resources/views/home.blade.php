@@ -189,12 +189,12 @@
         <div class="container">
             <h1>Sponsor</h1>
             <div class="sponsorXL">
-                <a href="#!"><img src="{{url('img/DqLab.png')}}" alt="dqlab_logo"></a>
-                <a href="#!"><img src="{{url('img/idcloudhost.png')}}" alt="idcloudhost_logo"></a>
-                <a href="#!"><img src="{{url('img/dewaweb.png')}}" alt="dewaweb_logo"></a>
+                <a href="https://www.dqlab.id" target="_blank"><img src="{{url('img/DqLab.png')}}" alt="dqlab_logo"></a>
+                <a href="https://idcloudhost.com" target="_blank"><img src="{{url('img/idcloudhost.png')}}" alt="idcloudhost_logo"></a>
+                <a href="https://www.dewaweb.com/" target="_blank"><img src="{{url('img/dewaweb.png')}}" alt="dewaweb_logo"></a>
             </div>
             <div class="sponsorM">
-                <a href="#!"><img src="{{url('img/dicoding.png')}}" alt="dicoding_logo"></a>
+                <a href="https://www.dicoding.com" target="_blank"><img src="{{url('img/dicoding.png')}}" alt="dicoding_logo"></a>
             </div>
             <div class="video-container">
                 <iframe width="500" height="255" src="https://www.youtube.com/embed/KgJDkyeNYSc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
