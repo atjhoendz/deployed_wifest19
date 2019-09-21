@@ -6,13 +6,13 @@
         <h6 style="padding-top=0px">Collaborating with <br> Developer Circles Bandung</h6>
         <div class="horizontal-scroll-wrapper">
             <div class="horizontal-scroll-content">
-                <img class="responsive-img z-depth-3" src="{{url('img/pemateri1_talkshow.jpg')}}" alt="img_talks">
+                <img class="responsive-img z-depth-3" src="{{url('img/talkshow1.png')}}" alt="img_talks">
             </div>
             <div class="horizontal-scroll-content">
-                <img class="responsive-img z-depth-3" src="{{url('img/pemateri2_talkshow.jpg')}}" alt="img_talks">
+                <img class="responsive-img z-depth-3" src="{{url('img/talkshow2.png')}}" alt="img_talks">
             </div>
             <div class="horizontal-scroll-content">
-                <img class="responsive-img z-depth-3" src="{{url('img/pemateri3_talkshow.jpg')}}" alt="img_talks">
+                <img class="responsive-img z-depth-3" src="{{url('img/talkshow3.png')}}" alt="img_talks">
             </div>
         </div>
         <div class="row">

@@ -5,13 +5,16 @@
     <h1 class="txtJudul">SEMINAR NASIONAL</h1>
     <div class="horizontal-scroll-wrapper">
         <div class="horizontal-scroll-content">
-            <img class="responsive-img z-depth-3" src="{{url('img/pemateri1_talkshow.jpg')}}" alt="img_talks">
+            <img class="responsive-img z-depth-3" src="{{url('img/semnas1.png')}}" alt="img_talks">
         </div>
         <div class="horizontal-scroll-content">
-            <img class="responsive-img z-depth-3" src="{{url('img/pemateri2_talkshow.jpg')}}" alt="img_talks">
+            <img class="responsive-img z-depth-3" src="{{url('img/semnas2.png')}}" alt="img_talks">
         </div>
         <div class="horizontal-scroll-content">
-            <img class="responsive-img z-depth-3" src="{{url('img/pemateri3_talkshow.jpg')}}" alt="img_talks">
+            <img class="responsive-img z-depth-3" src="{{url('img/semnas3.png')}}" alt="img_talks">
+        </div>
+        <div class="horizontal-scroll-content">
+            <img class="responsive-img z-depth-3" src="{{url('img/semnas4.png')}}" alt="img_talks">
         </div>
     </div>
     <div class="row">
@@ -26,7 +29,7 @@
                 masyarakat umum di bidang Informatika yang sesuai dengan perkembangan zaman.</p>
             <p class="yellow-text">Sabtu, 12 Oktober 2019</p>
             <p>Gedung Graha Sanusi Unpad Dipatiukur, Bandung</p>
-            <a href="#" class="waves-effect waves-light btnRSVP btn">GET TICKETS NOW <i
+            <a href="https://bit.ly/IFEST19" target="_blank" class="waves-effect waves-light btnRSVP btn">GET TICKETS NOW <i
                     class="material-icons">mail</i></a>
         </div>
     </div>

@@ -79,9 +79,9 @@
             <h2 class="txtJudul">COMPETITION</h2>
             <div class="horizontal-scroll-wrapper">
                 <div class="horizontal-scroll-content">
-                    <div class="card pink small" id="intention_card">
+                    <div class="card blue small" id="intention_card">
                         <div class="card-image">
-                            <img src="{{url('img/img_comp.jpg')}}" alt="" />
+                            <img src="{{url('img/appdev_icon.png')}}" alt="" />
                             <span class="card-title"></span>
                         </div>
                         <div class="card-content">
@@ -93,9 +93,9 @@
                     </div>
                 </div>
                 <div class="horizontal-scroll-content">
-                    <div class="card blue small" id="da_card">
+                    <div class="card green small" id="da_card">
                         <div class="card-image">
-                            <img src="{{url('img/img_comp.jpg')}}" alt="" />
+                            <img src="{{url('img/da_icon.png')}}" alt="" />
                             <span class="card-title"></span>
                         </div>
                         <div class="card-content">
@@ -107,9 +107,9 @@
                     </div>
                 </div>
                 <div class="horizontal-scroll-content">
-                    <div class="card green small" id="ctf_card">
+                    <div class="card red small" id="ctf_card">
                         <div class="card-image">
-                            <img src="{{url('img/img_comp.jpg')}}" alt="" />
+                            <img src="{{url('img/ctf_icon.png')}}" alt="" />
                             <span class="card-title"></span>
                         </div>
                         <div class="card-content">
@@ -133,7 +133,7 @@
             <div class="row">
                 <h1 class="txtJudul btnDetail2">SEMINAR NASIONAL</h1>
                 <div class="col m5">
-                    <img src="{{url('img/img_seminar.jpg')}}" alt="img_seminar" class="responsive-img">
+                    <img src="{{url('img/semnas_icon.png')}}" alt="img_seminar" class="responsive-img">
                 </div>
                 <div class="col m7 descWrapper">
                     <h1 class="txtJudul btnDetail1">SEMINAR NASIONAL</h1>
@@ -173,11 +173,12 @@
     <div class="section scrollspy indigo contentRangkaian" id="gallery">
         <div class="carousel">
             <h1 class="txtJudul">Gallery of IFest</h1>
-            <a class="carousel-item" href="#head"><img src="{{url('img/header.jpg')}}"></a>
-            <a class="carousel-item" href="#about"><img src="{{url('img/about.jpg')}}"></a>
-            <a class="carousel-item" href="#comp"><img src="{{url('img/competition.jpg')}}"></a>
-            <a class="carousel-item" href="#semnas"><img src="{{url('img/semnas.jpg')}}"></a>
-            <a class="carousel-item" href="#expo"><img src="{{url('img/expo.jpg')}}"></a>
+            <a class="carousel-item" href="#!"><img src="{{url('img/gallery1.jpg')}}"></a>
+            <a class="carousel-item" href="#!"><img src="{{url('img/gallery2.jpg')}}"></a>
+            <a class="carousel-item" href="#!"><img src="{{url('img/gallery3.jpg')}}"></a>
+            <a class="carousel-item" href="#!"><img src="{{url('img/gallery4.jpg')}}"></a>
+            <a class="carousel-item" href="#!"><img src="{{url('img/gallery5.jpg')}}"></a>
+            <a class="carousel-item" href="#!"><img src="{{url('img/gallery6.jpg')}}"></a>
         </div>
     </div>
 
