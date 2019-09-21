@@ -170,7 +170,7 @@
         <div class="parallax"><img src="{{url('img/expo.jpg')}}" alt=""></div>
     </div>
 
-    <div class="section scrollspy indigo contentRangkaian" id="gallery">
+    <div class="section scrollspy contentRangkaian" id="gallery">
         <div class="carousel">
             <h1 class="txtJudul">Gallery of IFest</h1>
             <a class="carousel-item" href="#!"><img src="{{url('img/gallery1.jpg')}}"></a>
